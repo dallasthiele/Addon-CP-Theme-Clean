@@ -15,13 +15,16 @@ body,
 .input-bison_price>.price-field,
 .markItUpHeader ul li,
 .input-select span.select,
-.selectize-control.single .selectize-input, .selectize-dropdown.single  {
+.selectize-control.single .selectize-input, .selectize-dropdown.single,
+.input-templates span.select,
+.redactor-toolbar  {
 	background-color: #fff;
 }
 #page-tree .page-wrapper, #page-tree .toggle-children,
 .selectize-control.single .selectize-input, .selectize-dropdown.single,
 .grid>thead th,
-.markItUpHeader ul li {
+.markItUpHeader ul li,
+.redactor-toolbar {
 	background-image: none;
 }
 .well, .selectize-input, #login #login-form .text, #login #disabled-control-panel .text, .input-text input, .input-date input, .input-time input, .input-location input {
@@ -47,7 +50,7 @@ body,
 /*Border Adjustments*/
 #page-tree .toggle-children,
 .table-list>thead th, .table-list, .table-list td, .grid .row-count,
-.cell-file .file-field-container .drop-area {
+.cell-file .file-field-container .drop-area, {
 	border: 1px solid #fff;
 }
 .input-section {
@@ -85,7 +88,9 @@ body,
 .replicator-set-label,
 .grid .cell-bison_price .price-field,
 .selectize-control.single .selectize-input, .selectize-dropdown.single,
-.markItUpHeader ul li, .markItUpHeader ul li:hover {
+.markItUpHeader ul li, .markItUpHeader ul li:hover,
+.redactor-toolbar,
+.redactor-editor {
 	border: 1px solid #eee;
 }
 
@@ -116,7 +121,8 @@ body,
 .replicator-set-label,
 .grid .cell-bison_price .price-field,
 .selectize-control.single .selectize-input, .selectize-dropdown.single,
-.sp-container {
+.sp-container,
+.redactor-editor {
 	box-shadow: none;
 }
 
